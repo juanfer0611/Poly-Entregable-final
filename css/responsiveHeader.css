@@ -1,0 +1,91 @@
+.infoUser{
+position: absolute;
+left: 55%;
+}
+
+.info,.infoTrian{
+      display: none;
+    }
+
+.imagenC {
+  margin-left: 0;
+
+height: 80px;
+width: 80px;
+
+}
+.icons{
+left: 2%;
+top: -25px;
+position: relative;
+}
+
+ @media (max-width: 705px) {
+.icons {
+left: 0%;
+font-size: 22px;
+margin-left: 0px;
+}
+.icons .glyphicon {
+margin-right: 5px;
+}
+ 
+  .searchInput {
+margin-top: 15px;
+margin-left: 0px;
+
+width: 17%;
+height: 25px;
+}
+      }
+
+ @media (max-width: 500px) {
+    .info,.infoTrian{
+      display: none;
+    }
+         .loginMov{
+      display: none;
+      position: absolute;
+top: 5px;
+left: 80%;
+      }
+
+      .txtUser,.icons{
+        display: none;
+      }
+
+      .imagenC{
+    width: 60px;
+height: 60px;
+ 
+ }
+
+ .infoUser{
+    left: 80%;
+    top: 70px;
+ }
+
+ h4{
+  width: 80%;  
+ }
+
+    }
+
+     @media (max-width: 1200px) {
+    
+
+
+      .txtUser{
+        display: none;
+      }
+.icons{
+  left: 2%;  
+}
+
+
+    }
+
+    .marg3 .row{
+      margin-top: 40px;
+    }
+

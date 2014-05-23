@@ -1,0 +1,876 @@
+@font-face{ 
+   font-family: 'Bebas';
+   src: url('font/BebasNeue-webfont.eot');
+   src: 
+   url('font/BebasNeue-webfont.woff') format('woff'),
+   url('font/BebasNeue-webfont.ttf') format('truetype'),
+   url('font/BebasNeue-webfont.svg') format('svg');
+}
+
+.noise{
+background: url(../img/textura-white.png);
+
+}
+
+.navig{
+  position: absolute;
+  height: 107px;
+}
+
+.margH{
+
+  margin-top: 28px; 
+}
+
+.logo{
+   position: relative;
+top: -25px;
+}
+
+.headerText{
+background: url(../img/textura-black.png),repeat;
+background-position: 131px;
+background-size: 30%;
+background-position-y: 263px;
+}
+
+ .slider{
+  margin-top: 50px;
+  margin-bottom: 310px;
+  margin-left: auto;
+
+}
+.roundabout-holder {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   height: 6em;
+   width: 6em;
+   left: 22%;
+}
+.roundabout-moveable-item {
+   left: 250px;
+   right: 350px;
+   height: 3em;
+   width: 3em;
+   cursor: pointer;
+   background-color: #ccc;
+   border: 1px solid #999;
+}
+.roundabout-in-focus {
+   cursor: auto;
+}
+
+.info{
+   width: 100%;
+   height: 350px;
+   background: #353535; /* Old browsers */
+   background: -moz-linear-gradient(top,  #353535 1%, #131313 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#353535), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  #353535 1%,#131313 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  #353535 1%,#131313 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  #353535 1%,#131313 100%); /* IE10+ */
+   background: linear-gradient(to bottom,  #353535 1%,#131313 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+}
+
+.infoLogin{
+   height: 180px;
+}
+
+ul{
+  width: 400px;
+}
+
+
+.thumbsTxt strong{
+   color: white;
+}
+.thumbsTxt p{
+   color: #919191;
+}
+
+.thumbs{
+   padding-top: 25px;
+   margin: 0 0 0 25px;
+}
+
+a:hover{
+   color: white; 
+   text-decoration: none;
+
+}
+.backBtnReg{
+   top: 10px;
+   position: absolute;
+   height: 60px;
+   width: 280px;
+   background: #34696f;
+   left: 38%;
+
+   -webkit-border-radius: 10px;
+   -khtml-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+
+}
+.btnReg{
+
+ top:2%;
+ position: relative;
+ display: block;
+ height: 95%;
+ width: 99%;
+ background: #34696f;
+ border: 3px dashed white;
+ margin: auto;
+
+
+
+ /*Step 3: Text Styles*/
+ color: white;
+ text-align: center;
+
+ font-family: 'Bebas';
+ font-size: 40px;
+ background: -webkit-linear-gradient(top, #34696f, #2f5f63);
+ background: -moz-linear-gradient(top, #34696f, #2f5f63);
+ background: -o-linear-gradient(top, #34696f, #2f5f63);
+ background: -ms-linear-gradient(top, #34696f, #2f5f63);
+ background: linear-gradient(top, #34696f, #2f5f63);
+
+ -webkit-border-radius: 10px;
+ -khtml-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+
+.btnReg:hover,.backBtnReg:hover{
+   background: #275054;
+}
+
+.txtInfo{
+   top: 90px;
+   text-align: justify;
+   color:#c8ccd0;
+}
+
+.infoTrian{
+  background: white;    
+}
+.triangle{
+   margin: 0 auto;
+   width: 0; 
+   height: 0; 
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+
+   border-top: 20px solid black;
+}
+
+/*Step 3: Link Styling*/
+a.button {
+ text-decoration: none;
+}
+
+}
+
+.separador{
+   margin-top: 30px;
+   border-style: dashed;
+   color: gray;
+}
+
+hr{
+ margin-top: 30px;
+ border-style: dashed;
+ color: gray;  
+}
+h2{
+   font-family: 'Bebas';
+   color: white;
+
+   font-size: 50px;
+   text-align: center;
+   margin-top: 0px;
+   margin-left: -120px;
+
+
+}
+
+
+
+.boldStat{
+   font-family: 'Bebas';  
+   font-size: 25px;
+   margin-right: 5px;
+   margin-left: 10px;
+}
+
+h3{
+  color: white;  
+  font-size: 16px;
+  margin-top: 35px;
+}
+.miInfo{
+
+   margin-top: -24px;
+   font-size: 12px;
+
+   text-align: justify;
+   color: gray;
+}
+
+.btnreg{
+   margin: 0 auto;
+
+}
+
+.imgThumb{
+
+   margin-left: 3px;
+
+}
+
+.wrkThumbs{
+
+   top:  50px;
+
+}
+
+.image { 
+   display: block;
+   max-width: 100%;
+   height: auto;
+   position: relative; 
+
+}
+
+h4 { 
+   position: absolute; 
+   top: 0; 
+   left: 15px; 
+   width: 100%; 
+   color:white;
+}
+
+
+.tbsCom{
+   color:black;
+   font-size: 40px;
+   font-family: 'Oswald';
+   border: 2px dashed silver;
+   padding: 5px;
+}
+.tbsCom:hover{
+   text-decoration: none;
+   color:black;
+   border: 2px dashed black;
+}
+.sepTra{
+ width: 281px; 
+ color: silver;
+ margin-top: -5px;
+}
+
+.opcionImg{
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+.orgTra{
+
+}
+.tbsFiltro{
+   display: inline-block;
+   margin-top: -4px;
+   margin-bottom: 25px;  
+   color:black;
+   font-size: 16px;
+   font-family: 'Bebas'; 
+}
+
+.btnFav,.btnContacto,.btnComent{
+
+margin-top: -5px;
+ padding-left: 11px;
+ padding-top: 2px;
+ display: inline-block;
+ margin-right: 7px;
+ height: 29px;
+ width: 75px;
+ background: #00736a;
+ border-bottom: 3px solid #00524b;
+ border-right: 3px solid #00524b;
+
+ border-radius: 5px;
+ 
+
+
+
+ /*Step 3: Text Styles*/
+ color: white;
+ text-align: center;
+
+ font-family: 'Oswald';
+ font-size: 18px;
+/* background: -webkit-linear-gradient(top, #34696f, #2f5f63);
+ background: -moz-linear-gradient(top, #34696f, #2f5f63);
+ background: -o-linear-gradient(top, #34696f, #2f5f63);
+ background: -ms-linear-gradient(top, #34696f, #2f5f63);
+ background: linear-gradient(top, #34696f, #2f5f63);*/
+
+
+}
+
+.btnComent{
+width: 75px;
+padding-left: 0;
+position: relative;
+top: 9px;
+left: 90%;
+cursor: pointer;
+}
+
+.btnContacto{
+width: 90px;
+padding-left: 0;
+position: relative;
+top: 1px;
+
+}
+
+.btnFav{
+   position: relative;
+top: -48px;
+left: -60px;
+width: 69px;
+padding: 2px;
+font-size: 15px;
+-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnFav .star{
+   font-size: 0;
+   -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnFav:hover{
+  width: 90px;
+  left: -50px;
+ -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnFav:hover .star{
+  font-size:15;
+ -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnFav:hover .icon{
+  color:#fadf49;
+  -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.star{
+  font-size: 15px; 
+}
+.btnCont{
+   display: inline-block;
+   width: 95px;
+}
+
+
+.btnInfo{
+   margin-top: 25px;
+   padding-top: 2px;
+   width: 140px;
+   height: 30px;
+   margin-left: 15px;
+}
+
+.btnCont:hover,.btnFav:hover,.btnComent:hover,.btnContacto:hover{
+   background: #275054;
+}
+
+.thumbTxtCont{
+ position: absolute;  
+ top: 204px; 
+ left: 15px; 
+ width: 100%; 
+ height: 60px;  
+ background: -moz-linear-gradient(top,  rgba(53,53,53,0.53) 0%, rgba(53,53,53,0.53) 1%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(53,53,53,0.53)), color-stop(1%,rgba(53,53,53,0.53)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  rgba(53,53,53,0.53) 0%,rgba(53,53,53,0.53) 1%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  rgba(53,53,53,0.53) 0%,rgba(53,53,53,0.53) 1%,rgba(19,19,19,1) 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  rgba(53,53,53,0.53) 0%,rgba(53,53,53,0.53) 1%,rgba(19,19,19,1) 100%); /* IE10+ */
+ background: linear-gradient(to bottom,  rgba(53,53,53,0.53) 0%,rgba(53,53,53,0.53) 1%,rgba(19,19,19,1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87353535', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+
+.nombreTra{
+   font-family: 'Oswald';
+   font-size: 20px;
+}
+
+.autor{
+   margin-top: -5px;
+   font-family: Helvetica;
+   font-size: 15px;
+}
+
+.stars{
+   padding-left: 8%;
+   top: 20px;
+   font-family: 'Oswald';
+
+}
+
+.favs{
+   display: inline-block;
+   font-size: 20px;
+   margin-right: 5px;
+}
+
+
+
+.stars:hover{
+   color:red;
+}
+
+.margenThb{
+   margin-top: 90px;
+   margin-bottom: 30px;
+}
+
+.grad{
+    position: relative;
+   color: white;
+   width: 100%;
+   top: 20px;
+   height: 155px;
+ background: #353535; /* Old browsers */
+   background: -moz-linear-gradient(top,  #353535 1%, #131313 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#353535), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  #353535 1%,#131313 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  #353535 1%,#131313 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  #353535 1%,#131313 100%); /* IE10+ */
+   background: linear-gradient(to bottom,  #353535 1%,#131313 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+   background: url(../img/textura-black.png),repeat;
+background-position: 131px;
+background-size: 30%;
+background-position-y: 263px;
+}
+
+.gradCenter strong{
+   margin-left: 45px;
+}
+
+ul
+{
+ list-style-type: none;
+}
+
+.linksRap{
+   margin-top: 20px;
+}
+
+.footerTxt{
+   margin-top: 10px;
+   font-size: 11px;
+   text-align: justify;
+   color: gray;
+}
+
+.grad strong{
+   margin-bottom: 10px;
+}
+
+
+
+
+.nombreThumb{
+   padding: 10px;
+   width: 100%;
+   height: 80px;
+   background-color: #00736a;
+
+}
+
+.tituloThumb{
+   font-family: 'Bebas';
+   font-size: 40px;
+   text-align: center;
+   color: white;
+   margin-left: 15px;
+}
+
+#box {
+ /* Position absolutely, 30px down from the top */
+ position: absolute;
+ top: 159px;
+
+ /* In my case I'm centering it in the window; do what you like */
+ margin-left: 0;
+ left: 73%;
+ width: 230px;
+height: 34em;
+ border: 1px solid #bbb;
+ text-align: center;
+ background: url(../img/textura-black.png),repeat;
+background-size: 242%;
+background-position-y: 263px;
+}
+
+.thumbsTxt{
+   display: inline-block;
+   margin-top: 15px;
+
+}
+.imagenC{
+   background: url('../img/nica.jpg');
+   background-position: center;
+   background-size: 132% 100%;
+   width: 60px;
+   height: 60px;
+   border-radius: 40px;
+   display: inline-block;
+   margin-right: 10px;
+   margin-left: -15px;
+   position: relative;
+
+   -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.imagenComent{
+   background: url('../img/me.jpg');
+   background-position: center;
+   background-size: 132% 132%;
+   width: 60px;
+   height: 60px;
+   border-radius: 40px;
+   display: inline-block;
+   margin-right: 10px;
+   margin-left: -15px;
+   position: relative;
+
+   -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.imagenComent1{
+   background: url('../img/julian.jpg');
+   background-position: center;
+   background-size: 132% 100%;
+   width: 60px;
+   height: 60px;
+   border-radius: 40px;
+   display: inline-block;
+   margin-right: 10px;
+   margin-left: -15px;
+   position: relative;
+
+   -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.imagenComent2{
+   background: url('../img/dodo.jpg');
+   background-position: center;
+   background-size: 132% 115%;
+   width: 60px;
+   height: 60px;
+   border-radius: 40px;
+   display: inline-block;
+   margin-right: 10px;
+   margin-left: -15px;
+   position: relative;
+
+   -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+#box .imagenC:hover{
+   -webkit-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+
+.boxUser{
+   color: white;
+position: relative;
+top: 17px;
+font-size: 16px;
+left: 0px;
+}
+
+.boxSep{
+   margin-top: 10px;
+border-style: dashed;
+background: rgb(27, 27, 27);
+width: 90%;
+}
+
+.boxSep2{
+   margin-top: -20px;
+border-style: dashed;
+background: rgb(27, 27, 27);
+width: 90%;
+} 
+
+.boxAbout{
+color: whitesmoke;
+position: relative;
+top: -10px;
+left: -75px;
+font-family: 'Oswald';
+font-size: 16px;
+}
+
+.boxInfo{
+  color: whitesmoke;
+position: relative;
+top: -4px;
+font-family: 'Oswald';
+font-size: 16px;
+}
+
+.boxTxt{
+font-size: 11px;
+text-align: justify;
+padding: 15px;
+position: relative;
+top: -40px;
+color: gray;
+text-indent: 0px;
+}
+
+.infoTxt{
+   position: relative;
+top: -25px;
+text-align: center;
+}
+
+.infoTxt strong{
+   color: white;
+   font-family: 'Oswald';
+   font-size: 16px;   
+}
+.infoTxt p{
+   color: gray;
+   
+   font-size: 11px;   
+}
+
+.myComent{
+  width: 100%;
+height: 120px;
+border-top: 2px solid rgba(0, 0, 0,0.1);
+border-left: 2px solid rgba(0, 0, 0,0.1);
+background-color: rgba(35, 35, 35,0.2); 
+position: relative;
+padding-bottom: 78px;
+padding-left: 9px;
+-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.myComent:hover{
+   -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.20);
+-moz-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.20);
+box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.20);
+}
+
+.comentario{
+  border-radius: 5px;
+}
+
+.marginPost{
+margin-bottom: 50px;
+}
+
+.perfilComent{
+   left:15px;
+height: 70px;
+width: 70px;
+}
+
+.cmtUser{
+   position: relative;
+color: #00736a;
+font-size: 25px;
+font-family: 'Oswald';
+top: -53px;
+left: 20px;
+cursor: pointer;
+-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.cmtUser:hover{
+  color: #275054;
+}
+
+.horaComment{
+   font-family: Helvetica;
+   margin-left: 6px;
+   color:gray;
+   font-size: 12px;
+}
+
+.comment{
+position: relative;
+color: darkslategrey;
+font-size: 12px;
+font-family: Helvetica;
+top: -50px;
+left: 90px;
+width: 90%;
+-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.commentSep{
+   margin-top: -40px;
+margin-bottom: 40px;
+   margin-top: -20px;
+border-style: dashed;
+background: rgb(27, 27, 27);
+width: 90%;
+}
+
+.btnLogin{
+  margin-top: -39px;
+}
+
+.btnLoginDos{
+margin-top: 13px;
+}
+.infoMov{
+  display: none;
+}
+
+ @media (max-width: 1000px) {
+      #box{
+        display: none;
+      } 
+      .infoMov{
+        display: initial;
+      }
+      .comment{
+        width: 75%;
+        padding: 10px;
+      }
+      .infoTxt {
+position: relative;
+top: -35px;
+left: 80px;
+text-align: left;
+}
+.imagenC {
+margin-left: 0px;
+}
+.boxUser {
+color: rgb(196, 151, 151);
+
+}
+    }
+
+     @media (max-width: 400px) {
+     .cmtUser {
+position: relative;
+color: #00736a;
+font-size: 20px;
+font-family: 'Oswald';
+top: -53px;
+left: 20px;
+cursor: pointer;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+      .horaComment {
+font-family: Helvetica;
+margin-left: 4px;
+color: gray;
+font-size: 10px;
+}
+    }
+
+    @media (max-width: 1000px) {
+
+.btnFav,.btnFav:hover{
+top: -95px;
+left: 80%;
+    }
+    }
+
+
+     @media (max-width: 700px) {
+ .btnComent {
+
+left: 0%;
+
+}
+.btnFav,.btnFav:hover{
+top: -95px;
+left: 80%;
+    }
+    }
+
+     @media (max-width: 500px) {
+ .btnComent {
+
+right: 0%;
+
+}
+.btnFav,.btnFav:hover{
+  
+top: -95px;
+left: 70%;
+    }
+  }

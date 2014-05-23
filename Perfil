@@ -1,0 +1,306 @@
+!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+  </style>
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/perfil.css">
+
+  <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  
+</style>
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+            <div class="navbar navbar-inverse navbar-fixed-top nav navig" role="navigation">
+              <div class="container margH">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Logo Poly</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <form class="navbar-form navbar-right" role="form">
+                    <div class="form-group">
+                      <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                  </form>
+                </div><!--/.navbar-collapse -->
+              </div>
+            </div>
+
+            <div class="container slider">
+              <ul class="col-md-4 col-md-offset-6 sliderId">
+                <li><img src="img/slider01.jpg"></li>
+                <li><img src="img/slider02.jpg"></li>
+                <li><img src="img/slider03.jpg"></li>
+              </ul>
+            </div>
+
+
+            <div class="info">
+              <div class="container">
+                <div class="thumbs">
+                  <div class="col-md-4">
+                    <div class="imagenC thumbsTxt">                 
+                    </div>
+                    <div class="thumbsTxt"> 
+                      <strong>Usuarios Mundiales</strong>
+                      <p>Squid pop-up butcher banh mi 3 wolf moon try-hard. Jean shorts ethnic tote bag Carles. Stumptown hashtag next level</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="imagenC thumbsTxt">                 
+                    </div>
+                    <div class=" thumbsTxt"> 
+                      <strong>Usuarios Mundiales</strong>
+                      <p>Squid pop-up butcher banh mi 3 wolf moon try-hard. Jean shorts ethnic tote bag Carles. Stumptown hashtag next level</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="imagenC thumbsTxt">                 
+                    </div>
+                    <div class="thumbsTxt"> 
+                      <strong>Usuarios Mundiales</strong>
+                      <p>Squid pop-up butcher banh mi 3 wolf moon try-hard. Jean shorts ethnic tote bag Carles. Stumptown hashtag next level</p>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+                <hr class="col-md-12 separador">
+                <h2 class="col-md-12">¿Aún sin cuenta?</h2>
+                
+                <div class="col-md-12">
+                  <div class="backBtnReg">
+                    <a href="file:///C:/Users/JuliOs/Desktop/initializr/indexLogin.html" class="btnReg">Registrarse</a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-md-offset-3 txtInfo" >
+                  <p>
+                    PBR bitters cray, mumblecore biodiesel yr YOLO Wes Anderson 8-bit trust fund cardigan wayfarers. Pickled kitsch master cleanse deep v organic, scenester Truffaut Helvetica pour-over. Post-ironic skateboard keffiyeh, selvage street art fap distillery. Chambray keffiyeh hella PBR freegan twee. Brooklyn fingerstache Carles Banksy, next level tofu Bushwick Vice. Etsy Godard photo booth blog master cleanse.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="infoTrian">
+              <div class="triangle">
+
+              </div>
+            </div>
+
+
+
+
+
+            <div class="container ">
+              <!-- Example row of columns -->
+              <div class="row"><strong class="tbsCom">Trabajos de la Comunidad</strong></div>
+              <hr class="row sepTra">
+              <div class="row orgTra">
+                <p class="tbsFiltro col-md-1" >Filtrar Por:</p>
+                
+
+                <a href="http://designshack.net/" class="btnFil col-md-1">Nuevos</a>
+
+
+
+                <a href="http://designshack.net/" class="btnFil col-md-1">Rating</a>
+
+
+
+                <a href="http://designshack.net/" class="btnFil col-md-1">Vistas</a>
+
+              </div>
+
+
+              <div class="row margenThb">
+
+                <div class="col-xs-12 col-md-4">
+                  <div class="image">
+                    <a href="#" class="thumbnail">
+                      <img src="img/thumbs01.jpg" alt="...">  
+                      <div class="row thumbTxtCont">            
+                       <h4 class="col-md-8 nombreTra">A Movie in the Park:<br /><span class="autor" >Kung Fu Panda</span></h4>
+                       <div class="col-md-4 stars pull-right">
+                        <p class="favs">1,231 </p><span class="glyphicon glyphicon-star icon"></span>
+                      </div> 
+                    </div>     
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="image">
+                  <a href="#" class="thumbnail">
+                    <img src="img/thumbs01.jpg" alt="...">  
+                    <div class="row thumbTxtCont">            
+                      <h4 class="col-md-8 nombreTra">A Movie in the Park:<br /><span class="autor" >Kung Fu Panda</span></h4>
+                      <div class="col-md-4 stars pull-right">
+                        <p class="favs">1,231 </p><span class="glyphicon glyphicon-star icon"></span>
+                      </div> 
+                    </div>    
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-4">
+                <div class="image">
+                  <a href="#" class="thumbnail">
+                    <img src="img/thumbs01.jpg" alt="...">  
+                    <div class="row thumbTxtCont">            
+                     <h4 class="col-md-8 nombreTra">A Movie in the Park:<br /><span class="autor" >Kung Fu Panda</span></h4>
+                     <div class="col-md-4 stars pull-right">
+                      <p class="favs">1,231 </p><span class="glyphicon glyphicon-star icon"></span>
+                    </div> 
+                  </div>     
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-12 col-md-4">
+              <div class="image">
+                <a href="#" class="thumbnail">
+                  <img src="img/thumbs01.jpg" alt="...">  
+                  <div class="row thumbTxtCont">            
+                   <h4 class="col-md-8 nombreTra">A Movie in the Park:<br /><span class="autor" >Kung Fu Panda</span></h4>
+                   <div class="col-md-4 stars pull-right">
+                    <p class="favs">1,231 </p><span class="glyphicon glyphicon-star icon"></span>
+                  </div> 
+                </div>     
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+            <div class="image">
+              <a href="#" class="thumbnail">
+                <img src="img/thumbs03.jpg" alt="...">  
+                <div class="row thumbTxtCont">            
+                  <h4 class="col-md-8 nombreTra">A Movie in the Park:<br /><span class="autor" >Kung Fu Panda</span></h4>
+                  <div class="col-md-4 stars pull-right">
+                    <p class="favs">1,231 </p><span class="glyphicon glyphicon-star icon"></span>
+                  </div> 
+                </div>    
+
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+            <div class="image">
+              <a href="#" class="thumbnail">
+                <img src="img/thumbs02.jpg" alt="...">  
+                <div class="row thumbTxtCont">            
+                 <h4 class="col-md-8 nombreTra">A Movie in the Park:<br /><span class="autor" >Kung Fu Panda</span></h4>
+                 <div class="col-md-4 stars pull-right">
+                  <p class="favs">1,231 </p><span class="glyphicon glyphicon-star icon"></span>
+                </div> 
+              </div>     
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <hr>
+
+    <footer class="grad">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-2 linksRap">
+        <strong>Links Rapidos</strong>
+        <ul class="footerTxt"> 
+            <li>Pagina Principal</li>
+            <li>Mi Perfil</li>
+            <li>Tutoriales</li>
+            <li>Ayuda</li>
+          </ul>
+          </div>
+
+                <div class="col-md-4 linksRap">
+        <strong>Encuentranos En: </strong>
+        <object width='217' height='32'><embed src='http://www.socialbuttonmaker.com/Swfs/3ec54787-d35d-4223-b1d9-0bf8070393a6/button.swf' type='application/x-shockwave-flash' width='260' height='40' loop='false' wmode='transparent'><noscript><a href='http://onelottowin.com/'>onelottowin.com</a></noscript></embed><img src='' width=0 height=0 id='flashbutton'/><script type='text/javascript' src='http://www.socialbuttonmaker.com/Scripts/FlashButton.js'></script></object>
+          </div>
+
+
+                <div class="col-md-2 linksRap">
+        <strong>Acerca</strong>
+        <ul class="footerTxt"> 
+            <li>Nuestro Objetivo</li>
+            <li>Nuestro Personal</li>
+            <li>Tutoriales</li>
+            <li>Ayuda</li>
+          </ul>
+          </div>
+
+
+                <div class="col-md-4 linksRap">
+        <strong>Información Legal</strong><br/>
+        <p class="footerTxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+        
+
+
+
+        </div>        
+      </div>
+    </footer>
+
+
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/jquery.roundabout.js"></script>
+
+
+    <script src="js/plugins.js"></script>
+
+
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+    <script>
+      $(document).ready(function() {
+        $('.sliderId').roundabout();
+      });
+    </script>
+
+  </body>
+  </html>
